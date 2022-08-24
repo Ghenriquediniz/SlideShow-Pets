@@ -134,11 +134,18 @@ input {
     
     position: absolute;
     margin-left: 35px;
-    margin-top: 300px;
-    margin-right: 50%;
+    margin-top: 255px;
+    margin-right: 55%;
     background: burlywood;
     font-size: 23px;
     text-align: center; 
        
 
+}
+
+.texto1 h3 {
+
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 440px;
 }
