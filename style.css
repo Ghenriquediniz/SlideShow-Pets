@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(72deg, #65ec99 1%, #745de9 99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.content {
+    height: 520px;
+    width: 935px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    
+}
+
+.slides {
+    display: flex;
+    width: 1000%;
+    height: 100%;
+
+}
+
+.slide {
+    width: 10%;
+    transition: 0.6s;
+    
+}
+
+.slides img {
+    width: 935px;
+    height: 520px;
+    
+}
+
+
+
+
+.navegacao {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    transition: translate(-50%);
+    display: flex;
+    position: center;
+    
+    
+}
+
+.barra {
+
+    border: 2px solid #40D3DC;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    padding: 7px;
+    
+}
+
+
+.barra:hover {
+    background-color: #40d3dc;
+}
+
+input {
+    display: none;
+}
+
+
+#slide1:checked ~ .slidep  {
+    margin-left: 0%;
+}
+
+#slide2:checked ~ .slidep {
+    margin-left: -10%;
+}
+
+#slide3:checked ~ .slidep {
+    margin-left: -20%;
+}
+
+#slide4:checked ~ .slidep {
+    margin-left: -30%;
+}
+
+#slide5:checked ~ .slidep {
+    margin-left: -40%;
+}
+
+#slide6:checked ~ .slidep {
+    margin-left: -50%;
+}
+
+#slide7:checked ~ .slidep {
+    margin-left: -60%;
+}
+
+#slide8:checked ~ .slidep {
+    margin-left: -70%;
+}
+
+#slide9:checked ~ .slidep {
+    margin-left: -80%;
+}
+
+#slide10:checked ~ .slidep {
+    margin-left: -90%;
+}
+
+.texto1 h1 {
+
+    position: absolute;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+
+.texto1 h2 {
+
+    
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 300px;
+    margin-right: 50%;
+    background: burlywood;
+    font-size: 23px;
+    text-align: center; 
+       
+
+}
