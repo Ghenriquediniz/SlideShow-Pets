@@ -7,10 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-
 
 .content {
     height: 520px;
@@ -21,31 +18,24 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 .slides {
     display: flex;
     width: 1000%;
     height: 100%;
-
 }
 
 .slide {
     width: 10%;
-    transition: 0.6s;
-    
+    transition: 0.6s; 
 }
 
 .slides img {
     width: 935px;
     height: 520px;
-    
 }
-
-
-
 
 .navegacao {
     position: absolute;
@@ -53,22 +43,17 @@ body{
     left: 40%;
     transition: translate(-50%);
     display: flex;
-    position: center;
-    
-    
+    position: center;    
 }
 
 .barra {
-
     border: 2px solid #40D3DC;
     margin: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-    padding: 7px;
-    
+    padding: 7px;  
 }
-
 
 .barra:hover {
     background-color: #40d3dc;
@@ -77,7 +62,6 @@ body{
 input {
     display: none;
 }
-
 
 #slide1:checked ~ .slidep  {
     margin-left: 0%;
@@ -120,32 +104,9 @@ input {
 }
 
 .texto1 h1 {
-
     position: absolute;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 15px;
     margin-left: 40px;
-    margin-top: 30px;
-    
-}
-
-.texto1 h2 {
-
-    
-    position: absolute;
-    margin-left: 35px;
-    margin-top: 255px;
-    margin-right: 55%;
-    background: burlywood;
-    font-size: 23px;
-    text-align: center; 
-       
-
-}
-
-.texto1 h3 {
-
-    position: absolute;
-    margin-left: 35px;
-    margin-top: 440px;
+    margin-top: 30px;  
 }
